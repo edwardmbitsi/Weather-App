@@ -32,3 +32,13 @@ body{
     justify-content: center;  
   }  
 
+.search button{  
+    margin: 1rem;  
+    border-radius: 50%;  
+    border: none;  
+    height: 2.5rem;  
+    width: 2.5rem;  
+    outline: none;  
+    background-color: rgba(92, 88, 88, 0.644);  
+    color: white;  
+  }  
