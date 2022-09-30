@@ -43,6 +43,10 @@ body{
     color: white;  
   }  
 
-
+.search button:hover{  
+    background-color: rgb(92, 88, 88);  
+    cursor: pointer;  
+    transition: 0.2s ease-in-out;  
+  }  
 
 
