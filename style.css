@@ -5,4 +5,13 @@
     -webkit-font-smoothing: antialiased;  
   }  
 
-
+body{  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+    margin: 0;  
+    background: rgb(41, 39, 39);  
+    font-family: 'Open Sans', sans-serif;  
+    background-image: url(https://source.unsplash.com/random/1600x900/?landscape); 
+  }  
