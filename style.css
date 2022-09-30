@@ -49,6 +49,18 @@ body{
     transition: 0.2s ease-in-out;  
   }  
 
+input.search-bar {  
+    border: none;  
+    outline: none;  
+    padding: 1rem 1rem;  
+    border-radius: 50px;  
+    width: 15rem;  
+    height: 2.5rem;  
+    background-color: rgba(92, 88, 88, 0.644);  
+    color: white;  
+    font-family: inherit;  
+    font-size: 100%;  
+  }  
 
 
 
