@@ -70,7 +70,11 @@ input.search-bar {
     visibility: hidden;  
   }  
 
-
+.loading::after{  
+    visibility: visible;  
+    content: "Loading...";  
+    color: white;  
+  }  
 
 
 
