@@ -32,3 +32,4 @@ displayWeather: function (data) {
       weather.search()  
     }   
   });  
+weather.fetchWeather("Nairobi");  
