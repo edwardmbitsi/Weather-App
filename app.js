@@ -10,3 +10,4 @@ displayWeather: function (data) {
       const {icon,description}=data.weather[0];  
       const {temp,humidity}=data.main;  
       const {speed}=data.wind;  
+// console.log(name,description,icon,temp,humidity,speed);  
