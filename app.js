@@ -23,3 +23,7 @@ displayWeather: function (data) {
       this.fetchWeather(document.querySelector(".search-bar").value);  
     }  
   };  
+
+  document.querySelector(".search button").addEventListener("click", function () {  
+    weather.search();    
+  });  
