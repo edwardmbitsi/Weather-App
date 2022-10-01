@@ -11,7 +11,7 @@ displayWeather: function (data) {
       const {temp,humidity}=data.main;  
       const {speed}=data.wind;  
 // console.log(name,description,icon,temp,humidity,speed);  
-document.querySelector(".city").innerText="Weather in " + name;  
+      document.querySelector(".city").innerText="Weather in " + name;  
       document.querySelector(".description").innerText=description;  
       document.querySelector(".temp").innerText=temp + "°C";  
       document.querySelector(".humidity").innerText="Humidity: "+humidity+"%";  
