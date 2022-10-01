@@ -19,7 +19,7 @@ displayWeather: function (data) {
       document.querySelector(".weather").classList.remove("loading");  
       document.body.style.backgroundImage="url('https://source.unsplash.com/random/1600x900/?"+ name +")";  
     },  
-search: function () {  
+    search: function () {  
       this.fetchWeather(document.querySelector(".search-bar").value);  
     }  
   };  
